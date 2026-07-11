@@ -7,12 +7,15 @@
     text-decoration:none;
     background:#2b5df5;
     color:white;
-    padding:15px 40px;
+    padding:18px 40px;
     border-radius:10px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
 
+}
+.common-btn:hover{
+    background-color:#4338CA;
 }
     
 
@@ -43,6 +46,50 @@ ul li a{
     font-size:17px;
     
 }
+
+.hero{
+    background-image:url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 786px;
+    width: 1551px;
+}
+
+.hero-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    flex-direction: column;
+    align-items: center;
+
+
+} 
+.hero-content h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.hero em{
+    font-style: italic;
+}
+
+
+.hero p{
+
+    color:white;
+
+    font-size:22px;
+
+    max-width:750px;
+
+    margin-bottom:35px;
+}
+    
 
 
 
