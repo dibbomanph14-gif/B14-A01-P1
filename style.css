@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 .common-btn{
@@ -12,6 +13,8 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    
+    
 
 }
 .common-btn:hover{
@@ -52,8 +55,7 @@ ul li a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 786px;
-    width: 1551px;
+    height:90vh;
 }
 
 .hero-content{
@@ -89,6 +91,168 @@ ul li a{
 
     margin-bottom:35px;
 }
+
+
+
+.speakers{
+    padding: 80px 0;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    
+}
+.speaker-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card img{
+    width:100%;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    height: auto;
+    
+    
+}
+
+
+.card-content{
+    padding: 18px;
+}
+
+.card-content h5{
+    color: #2563eb;
+    font-size: 12px;
+    margin-bottom: 8px;
+    
+
+}
+.card-content h3{
+    margin-bottom: 8px;
+}
+
+.card-content p{
+    color: #575757;
+
+}
+
+
+.plans{
+    padding:80px 0; 
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    
+
+.plans h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+
+}
+.plans-subtitle{
+    text-align: center;
+    color: #676767;
+    margin-bottom: 50px;
+    
+}
+
+.plan-card{
+    display: grid;
+    
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+
+.price-card hr{
+    border:none;
+    border-top:1px solid #ddd;
+    margin:20px 0;
+}
+.price-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:24px;
+    background:#fff; 
+    display: flex;
+    flex-direction: column;
+}
+.price-card h5{
+    font-size:12px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: column;
+}
+.price-card h3{
+    font-size:50px;
+    margin-bottom:5px;
+}
+.price-text{
+    font-size:14px;
+    margin-bottom:20px;
+}
+.price-card ul{
+    padding-left:20px;
+    margin-bottom:25px;
+    display: block;
+    
+}
+.price-card li{
+    display: list-item;
+    margin-bottom:15px;
+    font-size:15px;
+}
+
+
+.price-card button{
+    width:100%;
+     
+}
+.btn-outline{
+    background:white;
+    color:#2563eb;
+    border:1px solid #2563eb;
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+.btn-outline-dark{
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ .premium{
+    background: #0F1E2E;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
     
 
 
