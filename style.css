@@ -22,7 +22,7 @@
 }
     
 
-
+/* nav section  */
 
 nav{
     width:100%;
@@ -49,6 +49,7 @@ ul li a{
     font-size:17px;
     
 }
+/* hero section  */
 
 .hero{
     background-image:url(./img/banner.jpg);
@@ -93,6 +94,7 @@ ul li a{
 }
 
 
+/* speakers */
 
 .speakers{
     padding: 80px 0;
@@ -145,6 +147,8 @@ ul li a{
     color: #575757;
 
 }
+
+/* price-card  */
 
 
 .plans{
@@ -214,6 +218,7 @@ ul li a{
 }
 .price-card li{
     display: list-item;
+    list-style-type: disc;
     margin-bottom:15px;
     font-size:15px;
 }
@@ -247,6 +252,42 @@ ul li a{
     border-radius: 10px;
 
 }
+.premium hr{
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* faq section  */
+
+.faq{
+    padding:80px 0 ;
+}
+
+.faq-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.faq-title p{
+    margin-top:15px;
+}
+
+.faq-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faq-item{
+    border: 1px solid #ddd; 
+    border-radius: 12px;
+    padding: 24px 30px;
+    background: #fff;
+}
+.faq-item h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight:600px;
+}
+    
 
 
 
